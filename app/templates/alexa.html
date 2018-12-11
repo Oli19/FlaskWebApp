@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content%}
+<input type="button" value="Click.me"
+
+{% endblock %}
+
+{% block skrypty %}
+<script src="{{ url_for('static', filename='./skrypty/alexa.js')}}"></script>
+{% endblock %}

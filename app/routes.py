@@ -9,6 +9,8 @@ def index():
 @app.route('/galeria')
 def index2():
     return render_template('galeria.html')
-
+@app.route('/alexa')
+def alexa():
+    return render_template('alexa.html')
 
 
